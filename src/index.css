@@ -1,0 +1,166 @@
+:root {
+  --dark-color: #212428;
+  --light-dark-color: #a2a2a2;
+  --red-color: #ff343f;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background: var(--dark-color);
+  color: white;
+}
+
+.mystic_sdk_asset_holder {
+  background-color: var(--dark-color) !important;
+}
+
+.mystic_sdk_no_asset_text,
+.mystic_sdk_trigger_btn,
+.mystic_sdk_trigger_btn svg {
+  color: white;
+  fill: white;
+}
+
+.mystic_sdk_duration_holder,
+.mystic_sdk_listing_screen_assets .mystic_sdk_listing_swap_icon {
+  background-color: var(--dark-color);
+}
+
+.mystic_sdk_listing_screen_swap_icon {
+  border-color: white;
+}
+
+.mystic_sdk_outlined-btn,
+.mystic_sdk_apply_btn,
+.mystic_sdk_cancel_btn,
+.mystic_sdk_add_token_button {
+  color: var(--red-color);
+  background-color: var(--dark-color);
+  border-color: var(--red-color);
+}
+
+.mystic_sdk_create-swap-btn,
+.mystic_sdk_accept_button {
+  background: linear-gradient(
+    0deg,
+    var(--red-color),
+    var(--red-color) 65%
+  ) !important;
+}
+
+.mystic_sdk_date_picker_main_body {
+  background-color: var(--dark-color);
+  color: white;
+}
+
+.css-1jy569b-MuiFormLabel-root-MuiInputLabel-root {
+  color: var(--red-color) !important;
+  background-color: var(--dark-color);
+}
+
+.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input,
+.css-z3c6am-MuiFormControl-root-MuiTextField-root {
+  border: 1px solid var(--red-color) !important;
+}
+
+.css-z3c6am-MuiFormControl-root-MuiTextField-root:focus,
+.css-z3c6am-MuiFormControl-root-MuiTextField-root:focus-within {
+  border: 1px solid var(--red-color) !important;
+  outline: none !important;
+}
+
+.mystic_sdk_blocky_holder p,
+.mystic_sdk_everyone,
+.mystic_sdk_nft_card_collection_name p,
+.css-nxo287-MuiInputBase-input-MuiOutlinedInput-input {
+  color: white;
+}
+
+.css-nxo287-MuiInputBase-input-MuiOutlinedInput-input,
+.css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root,
+.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input,
+.css-hfutr2-MuiSvgIcon-root-MuiSelect-icon,
+.css-i4bv87-MuiSvgIcon-root {
+  color: white !important;
+}
+
+.mystic_sdk_chosen_closer:hover {
+  background-color: var(--red-color);
+}
+
+.mystic_sdk_token_selection_modal_body,
+.mystic_sdk_create_swap_content {
+  background-color: var(--dark-color);
+}
+
+input {
+  color: white !important;
+}
+
+.mystic_sdk_blocky_holder:hover p {
+  color: var(--red-color);
+}
+
+.mystic_sdk_search,
+.mystic_sdk_dropdown,
+.mystic_sdk_dropdown_list,
+.mystic_sdk_swap_item,
+.mystic_sdk_modal_content,
+.mystic_sdk_swap_item_top .mystic_sdk_listing_swap_icon {
+  background-color: var(--dark-color);
+}
+
+.mystic_sdk_search input {
+  background-color: transparent;
+}
+
+.mystic_sdk_search:focus-within,
+.mystic_sdk_icon_holder,
+.mystic_sdk_asset_search:focus-within,
+.mystic_sdk_chain_logo_container {
+  border-color: var(--red-color);
+}
+
+.mystic_sdk_chain_logo_container,
+.mystic_sdk_icon_holder {
+  background-color: rgba(217, 224, 236, 0.2);
+}
+
+.mystic_sdk_collection_name p,
+.mystic_sdk_nft_name,
+.mystic_sdk_swap_component_header button {
+  color: white;
+}
+
+.mystic_sdk_text_accordion {
+  background-color: var(--dark-color);
+}
+
+.mystic_sdk_accordion_title p,
+.mystic_sdk_drop_arrow svg {
+  color: white !important;
+}
+
+.mystic_sdk_accordion_message {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.mystic_sdk_help_tabs button {
+  color: white;
+}
+
+.mystic_sdk_everyone:hover {
+  color: var(--red-color);
+}
+
+.css-v59d8d-MuiInputBase-root-MuiOutlinedInput-root:focus,
+.MuiOutlinedInput-notchedOutline {
+  border-color: var(--red-color);
+  outline: none;
+}
+
+.mystic_sdk_spinner {
+  color: var(--red-color) !important;
+  fill: var(--red-color) !important;
+}
