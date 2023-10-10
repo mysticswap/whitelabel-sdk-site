@@ -50,12 +50,17 @@ a {
 }
 
 .mystic_sdk_create-swap-btn,
-.mystic_sdk_accept_button {
+.mystic_sdk_accept_button,
+.mystic_sdk_confirm_btn {
   background: linear-gradient(
     0deg,
     var(--red-color),
     var(--red-color) 65%
   ) !important;
+}
+
+.mystic_sdk_accept_button {
+  background: linear-gradient(0deg, green, rgb(69, 154, 69) 65%) !important;
 }
 
 .mystic_sdk_date_picker_main_body {
@@ -99,7 +104,8 @@ a {
 }
 
 .mystic_sdk_token_selection_modal_body,
-.mystic_sdk_create_swap_content {
+.mystic_sdk_create_swap_content,
+.mystic_sdk_holder_icon {
   background-color: var(--dark-color) !important;
 }
 
@@ -159,7 +165,8 @@ input {
   color: white !important;
 }
 
-.mystic_sdk_everyone:hover {
+.mystic_sdk_everyone:hover,
+.mystic_sdk_swaps_link {
   color: var(--red-color) !important;
 }
 
