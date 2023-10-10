@@ -1,5 +1,5 @@
 import "./Footer.css";
-import mysticLogo from "../../assets/mystic-logo.svg";
+import mysticLogo from "../../assets/logograndemystic4 (2).png";
 import { RiDiscordFill, RiTwitterXLine } from "react-icons/ri";
 
 const Footer = () => {
@@ -17,7 +17,7 @@ const Footer = () => {
         <div>
           <p>Powered by</p>
           <span>
-            <img src={mysticLogo} alt="" />
+            <img className="footer_logo" src={mysticLogo} alt="" />
           </span>
         </div>
       </section>

@@ -51,6 +51,10 @@ footer {
   transition: var(--ms-mp-transition);
 }
 
+.footer_logo {
+  width: 90px;
+}
+
 .socials svg:hover {
   opacity: 0.5;
 }
