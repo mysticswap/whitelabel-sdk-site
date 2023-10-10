@@ -12,6 +12,7 @@ const Navbar = () => {
           <img
             src="https://explorer.galaxiastudios.com/images/galaxiaE/Galaxia%20Studios.png"
             alt="collection_logo"
+            onClick={() => window.open("https://www.galaxiastudios.com/")}
           />
         </div>
 

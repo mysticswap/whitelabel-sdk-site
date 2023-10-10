@@ -53,6 +53,7 @@ footer {
 
 .footer_logo {
   width: 90px;
+  cursor: pointer;
 }
 
 .socials svg:hover {

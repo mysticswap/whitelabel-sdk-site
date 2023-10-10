@@ -17,7 +17,12 @@ const Footer = () => {
         <div>
           <p>Powered by</p>
           <span>
-            <img className="footer_logo" src={mysticLogo} alt="" />
+            <img
+              className="footer_logo"
+              src={mysticLogo}
+              alt=""
+              onClick={() => window.open("https://withmystic.xyz/")}
+            />
           </span>
         </div>
       </section>

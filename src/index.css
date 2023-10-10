@@ -212,3 +212,9 @@ input {
   color: white !important;
   fill: white !important;
 }
+
+@media (max-width: 480px) {
+  .mystic_sdk_swaps_component {
+    background-color: var(--dark-color);
+  }
+}

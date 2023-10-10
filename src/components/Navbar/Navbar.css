@@ -28,6 +28,7 @@
   height: 55px;
   border-radius: 50%;
   overflow: hidden;
+  cursor: pointer;
 }
 
 .logo_holder img {
