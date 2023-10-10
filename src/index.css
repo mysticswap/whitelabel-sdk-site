@@ -11,6 +11,14 @@ body {
   color: white;
 }
 
+a {
+  color: unset;
+}
+
+.swap_component_holder {
+  margin: 4rem 0;
+}
+
 .mystic_sdk_asset_holder {
   background-color: var(--dark-color) !important;
 }
@@ -34,7 +42,8 @@ body {
 .mystic_sdk_outlined-btn,
 .mystic_sdk_apply_btn,
 .mystic_sdk_cancel_btn,
-.mystic_sdk_add_token_button {
+.mystic_sdk_add_token_button,
+.mystic_sdk_view_offer {
   color: var(--red-color) !important;
   background-color: var(--dark-color) !important;
   border-color: var(--red-color) !important;
@@ -163,4 +172,31 @@ input {
 .mystic_sdk_spinner {
   color: var(--red-color) !important;
   fill: var(--red-color) !important;
+}
+
+.mystic_sdk_trigger_btn input,
+.mystic_sdk_mobile_preview {
+  background-color: var(--dark-color);
+}
+
+.mystic_sdk_input_check {
+  background-color: transparent;
+}
+
+.mystic_sdk_mobile_assets_holder {
+  z-index: 2000;
+  background-color: var(--dark-color);
+}
+
+.mystic_sdk_selection_bottom button,
+.mystic_sdk_counter {
+  background-color: var(--red-color);
+}
+
+.mystic_sdk_clear_btn {
+  color: var(--red-color);
+}
+
+.mystic_sdk_blue {
+  border-color: var(--red-color);
 }
