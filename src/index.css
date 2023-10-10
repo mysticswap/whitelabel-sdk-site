@@ -207,3 +207,8 @@ input {
 .mystic_sdk_blue {
   border-color: var(--red-color);
 }
+
+.mystic_sdk_connectedText svg {
+  color: white !important;
+  fill: white !important;
+}
