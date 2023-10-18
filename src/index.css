@@ -244,6 +244,10 @@ input {
   background-color: var(--dark-color) !important;
 }
 
+.mystic_sdk_chosen_text {
+  background-color: var(--red-color) !important;
+}
+
 @media (max-width: 480px) {
   .mystic_sdk_swaps_component {
     background-color: var(--dark-color);
