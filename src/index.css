@@ -213,6 +213,37 @@ input {
   fill: white !important;
 }
 
+.mystic_sdk_private_input,
+.mystic_sdk_request_modal_content {
+  background-color: var(--dark-color) !important;
+}
+
+.mystic_sdk_request_modal_content button {
+  color: white !important;
+}
+
+.options_screen div input:focus {
+  border: 2px solid var(--red-color) !important;
+  outline: none !important;
+}
+
+.mystic_sdk_check-box {
+  background-color: var(--red-color) !important;
+}
+
+.mystic_sdk_request_modal_content .mystic_sdk_accept_button,
+.mystic_sdk_any_selection_button_area > button {
+  background: linear-gradient(
+    0deg,
+    var(--red-color),
+    var(--red-color) 65%
+  ) !important;
+}
+
+.mystic_sdk_any_selection_main {
+  background-color: var(--dark-color) !important;
+}
+
 @media (max-width: 480px) {
   .mystic_sdk_swaps_component {
     background-color: var(--dark-color);
